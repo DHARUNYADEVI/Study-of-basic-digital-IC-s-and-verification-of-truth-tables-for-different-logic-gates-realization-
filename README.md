@@ -77,27 +77,27 @@ If there are any errors or warnings during the compilation process, Quartus will
 Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
 
 # Program:
-  module expone (a,b,y1,y2,y3,y4,y5,y6,y7);
+    module expone (a,b,y1,y2,y3,y4,y5,y6,y7);
   
-  input a,b;
+    input a,b;
   
-  output y1,y2,y3,y4,y5,y6,y7;
+    output y1,y2,y3,y4,y5,y6,y7;
   
-  and(y1,a,b);
+    and(y1,a,b);
   
-  or(y2,a,b);
+    or(y2,a,b);
   
-  not(y3,a);
+    not(y3,a);
   
-  xor(y4,a,b);
+    xor(y4,a,b);
   
-  nand(y5,a,b);
+    nand(y5,a,b);
   
-  nor(y6,a,b);
+    nor(y6,a,b);
   
-  xnor(y7,a,b);
+    xnor(y7,a,b);
   
-  endmodule
+    endmodule
   
 
 # Logic symbol & Truthtable:
