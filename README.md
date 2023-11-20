@@ -1,7 +1,7 @@
 # EX NO -1 Study of basic digital IC s and verification of truth tables for different logic gates realization
 # AIM:
-    To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
-
+   To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
+   
 # Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
@@ -75,18 +75,30 @@ If there are any errors or warnings during the compilation process, Quartus will
 6.*Verification:
 
 Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
+
 # Program:
   module expone (a,b,y1,y2,y3,y4,y5,y6,y7);
+  
   input a,b;
+  
   output y1,y2,y3,y4,y5,y6,y7;
+  
   and(y1,a,b);
+  
   or(y2,a,b);
+  
   not(y3,a);
+  
   xor(y4,a,b);
+  
   nand(y5,a,b);
+  
   nor(y6,a,b);
+  
   xnor(y7,a,b);
+  
   endmodule
+  
 
 # Logic symbol & Truthtable:
 
@@ -96,12 +108,11 @@ Click on "File" > "New" > "Verification/Debugging Files" > "University Program V
 
 # RTL realization:
 
-![Screenshot (18)](https://github.com/DHARUNYADEVI/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473847/9cade4a6-27d1-4d26-b5ee-f0cfe1624e20)
+![Screenshot (18)](https://github.com/DHARUNYADEVI/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473847/7b4d90d2-0ee1-4e26-ae75-90a3fcca23d9)
 
 # Timing diagram:
 
-![Uploading Screenshot (19).png…]()
+![Screenshot (19)](https://github.com/DHARUNYADEVI/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473847/f16f78f8-580f-4371-be76-98b931c6e82d)
 
-
-Result:
+# Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
